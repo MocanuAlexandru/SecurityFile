@@ -1,0 +1,15 @@
+
+Install libpqxx
+Install postgres
+Install pqadmin 4
+
+Create user admin: $ sudo createuser -U postgres -d -e -E -l -P -r -s admin
+with password: AdminSuperSecretPassword
+
+Create a database with pgadmin 4 called SecurityFileDB
+
+Create tables with script: create_db.sql
+Add an entry to the USERS table:
+    user_id: 1
+    username: admin
+    hash_password: 90d69633f37e38799cdff1ca405411e225dcfcc2af4d1c41697a7b12a7cab5f7 (sha3-256 applied to  "this is admin's password")
