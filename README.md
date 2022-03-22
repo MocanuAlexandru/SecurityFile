@@ -1,5 +1,5 @@
 # SecurityFile
-This project was designed as a security puzzle during a university course.
+This project was made in collaboration with a colleague (iulius98) and was designed as a security puzzle during a university course.
 
 A presentation for this project can be found here: https://docs.google.com/presentation/d/1F3eFlxCFsT737YPvHkxnLdTNsPRgOqQT-7huSN0QlFA/edit#slide=id.ga9000e7222_1_22
 
